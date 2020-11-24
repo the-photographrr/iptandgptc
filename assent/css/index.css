@@ -70,64 +70,6 @@
   /* height: 80vh; */
   padding: 10px;
 }
-.department .java {
-  text-align: center;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  color: #0e2431;
-  margin-left: auto;
-  font-weight: bold;
-}
-.main-row {
-  padding-left: 2.5rem;
-}
-
-.card {
-  width: 18rem;
-  background: #0e2431;
-  cursor: pointer;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
-}
-.card img {
-  transform: translateY(-50px);
-  border-radius: 15px;
-  z-index: 1;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
-}
-.card .card-body {
-  visibility: hidden;
-  transform: translateY(-150px);
-  height: 0;
-  color: #000;
-  text-align: center;
-}
-.card:hover .card-body {
-  visibility: visible;
-  transform: translateY(-50px);
-  transition: 0.4s;
-  height: 170px;
-}
-.card:hover {
-  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.6);
-}
-
-/* media queries */
-@media (max-width: 1020px) {
-  .main-row {
-    padding-right: 2.5rem;
-  }
-  .container {
-    max-width: 1200px;
-  }
-}
-@media (max-width: 978px) {
-  .main-row {
-    display: grid;
-    grid-template-columns: repeat(1fr, 1fr);
-    align-items: center;
-    justify-content: center;
-  }
-}
 /* Deparment End */
 
 /* Contactus started */
