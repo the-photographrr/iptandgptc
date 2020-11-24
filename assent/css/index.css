@@ -298,5 +298,9 @@ footer .copy a:hover {
   opacity: 1;
   text-decoration: none;
 }
+footer .footer2 p{
+text-transform: capitalize;
+padding-bottom: 5px;
+}
 
 /* footer end */
