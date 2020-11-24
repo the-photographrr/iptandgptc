@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 .section-title {
   text-align: center;
   padding-bottom: 30px;
@@ -38,6 +40,7 @@
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
   font-size: 20px;
   text-transform: capitalize;
+  font-weight: 800;
 }
 
 /* nav end */
@@ -174,7 +177,7 @@
 /* Department Start */
 #departments {
   /* height: 80vh; */
-  padding: 10px;
+  /* padding: 10px; */
 }
 .card:hover {
   box-shadow: 0 15px 15px rgba(0, 0, 0, 0.6);
@@ -372,3 +375,40 @@ footer .footer-copyright {
 }
 
 /* footer end */
+.top-link {
+  transition: all .25s ease-in-out;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: inline-flex;
+  
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3em 3em 0;
+    border-radius: 50%;
+    padding: .25rem;
+    width: 50px;
+    height: 50px;
+
+}
+.top-link img {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  transition: all .25s ease-in-out;
+  background: #087afc;
+  border-radius: 30px;
+  padding: 15px;
+  padding-top: 16px;
+  scroll-behavior: smooth;
+  transform: 2s;
+  opacity: .8;
+  right: 40px;
+  bottom: 40px;
+  cursor: pointer;
+  box-shadow: -1px 10px 40px -12px rgba(0, 0, 0, 0.849);
+}
+.top-link img:hover {
+    opacity: 1;
+}
