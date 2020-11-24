@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 .section-title {
   text-align: center;
   padding-bottom: 30px;
@@ -20,7 +19,7 @@
 }
 
 .section-title h2::after {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 50px;
@@ -35,14 +34,11 @@
   font-size: 18px;
 }
 
-
-
 /* nav start */
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
   font-size: 20px;
   text-transform: capitalize;
 }
-
 
 /* nav end */
 /* ABOUT START */
@@ -112,7 +108,7 @@
   padding: 10px;
 }
 .card:hover {
-  box-shadow: 0 15px 15px rgba(0,0,0,0.6);
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.6);
 }
 /* Deparment End */
 
@@ -298,9 +294,12 @@ footer .copy a:hover {
   opacity: 1;
   text-decoration: none;
 }
-footer .footer2 p{
-text-transform: capitalize;
-padding-bottom: 5px;
+footer .footer2 p {
+  text-transform: capitalize;
+  padding-bottom: 5px;
+}
+footer .footer-copyright {
+  background: rgba(22, 162, 255, 0.411);
 }
 
 /* footer end */
