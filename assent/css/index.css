@@ -4,6 +4,47 @@
   box-sizing: border-box;
 }
 
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.section-title h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #5846f9;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.section-title p {
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+
+
+/* nav start */
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+
+/* nav end */
 /* ABOUT START */
 
 .about {
@@ -69,6 +110,9 @@
 #departments {
   /* height: 80vh; */
   padding: 10px;
+}
+.card:hover {
+  box-shadow: 0 15px 15px rgba(0,0,0,0.6);
 }
 /* Deparment End */
 
