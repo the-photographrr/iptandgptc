@@ -41,19 +41,50 @@
 }
 
 /* nav end */
-
+/* 
 #particles-js {
   height: 100%;
   background-color: rgb(0, 0, 0);
  background: black;
   background-size: cover;
+} */
+#particles-js {
+  position: relative;
+  background: url(../images/sections/DSCN2295-012.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding: 220px 0 200px;
 }
-#carouselExampleSlidesOnly .carousel-item {
+.main h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 6rem;
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.main p {
+    margin-top: 1rem;
+    padding: 0;
+    font-size: 1rem;
+    color: bisque;
+
+}
+@media(max-width: 768px){
+    .main{
+        padding: 200px 0;
+    }
+    .main h2 {
+        font-size: 2em;
+    }
+}
+/* #carouselExampleSlidesOnly .carousel-item {
   background: rgba(0, 0, 0, 0.877);
-  z-index: 2;
+  z-index: 2; */
   /* filter: blur(7px);
   -webkit-filter: blur(7px); */
-}
+/* } */
 /* .carousel  .carousel-caption {
   margin-bottom: 10rem;
 }
