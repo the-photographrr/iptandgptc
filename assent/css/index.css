@@ -41,7 +41,29 @@
 }
 
 /* nav end */
+
+
+#carouselExampleSlidesOnly .carousel-item {
+  background: rgba(0, 0, 0, 0.877);
+  z-index: 2;
+  /* filter: blur(7px);
+  -webkit-filter: blur(7px); */
+}
+/* .carousel  .carousel-caption {
+  margin-bottom: 10rem;
+}
+.carousel  .carousel-caption h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.carousel  .carousel-caption p {
+  font-size: 30px;
+  font-weight: 700;
+} */
 /* ABOUT START */
+
+
+
 
 .about {
   padding: 120px 0;
