@@ -42,7 +42,12 @@
 
 /* nav end */
 
-
+#particles-js {
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+ background: black;
+  background-size: cover;
+}
 #carouselExampleSlidesOnly .carousel-item {
   background: rgba(0, 0, 0, 0.877);
   z-index: 2;
@@ -61,9 +66,6 @@
   font-weight: 700;
 } */
 /* ABOUT START */
-
-
-
 
 .about {
   padding: 120px 0;
