@@ -106,10 +106,11 @@ html {
     padding: 200px 0;
   }
   .main h2 {
-    font-size: 2em;
+    font-size: 3em;
   }
   .main p {
-    font-size: 1em;
+    font-size: 15px;
+    padding: 30px;
   }
 }
 /* #carouselExampleSlidesOnly .carousel-item {
@@ -191,10 +192,6 @@ html {
 }
 /* ABOUT END */
 /* Department Start */
-#departments {
-  /* height: 80vh; */
-  /* padding: 10px; */
-}
 .card:hover {
   box-shadow: 0 15px 15px rgba(0, 0, 0, 0.6);
   transform: translateY(-10px);
