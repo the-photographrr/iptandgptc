@@ -60,15 +60,25 @@ html {
   /* background: url(../images/sections/slider_1.jpg); */
   background: linear-gradient(
       45deg,
-      rgba(0, 0, 0, 0.308) 0%,
-      rgba(0, 2, 7, 0.185) 100%
+      rgba(0, 0, 0, 0.541) 0%,
+      rgba(0, 2, 7, 0.342) 100%
     ),
     url("../images/sections/DSCN2295-01.jpg") center center no-repeat;
 
   min-height: 70vh;
   background-size: cover;
   background-position: center;
-  padding: 220px 0 200px;
+}
+#particles-js::after {
+  background-color: #000;
+  content: "";
+  opacity: 0.45;
+  left: 0;
+  top: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
 }
 .ipth1 {
   background: -webkit-linear-gradient(
@@ -90,17 +100,18 @@ html {
 .main h2 {
   margin: 0;
   padding: 0;
-  font-size: 6rem;
+  font-size: 5rem;
   color: antiquewhite;
   text-align: center;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 900;
 }
 .main p {
   margin-top: 1rem;
   padding: 0;
   font-size: 26px;
   color: bisque;
+  padding: 2rem;
 }
 @media (max-width: 768px) {
   .main {
@@ -134,7 +145,7 @@ html {
 /* ABOUT START */
 
 .about {
-  padding: 120px 0;
+  padding: 50px 0;
 }
 
 .about .content h3 {
@@ -192,6 +203,40 @@ html {
   top: 12px;
 }
 /* ABOUT END */
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+  padding: 15px 0;
+  text-align: center;
+}
+.clients .links {
+  display: flex;
+  flex-direction: column;
+}
+
+.clients img {
+  max-width: 45%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  -webkit-filter: grayscale(50);
+  filter: grayscale(150);
+  border-radius: 40%;
+}
+
+.clients img:hover {
+  -webkit-filter: none;
+  filter: none;
+  transform: scale(1.15);
+  background: #0dd3ed93;
+}
+
+@media (max-width: 768px) {
+  .clients img {
+    max-width: 40%;
+  }
+}
 /* Department Start */
 .card:hover {
   box-shadow: 0 15px 15px rgba(0, 0, 0, 0.6);
