@@ -441,7 +441,6 @@ footer .social {
 footer .social:hover {
   opacity: 1;
   color: #fff;
- 
 }
 footer .social i {
   opacity: 0.9;
@@ -449,23 +448,44 @@ footer .social i {
 }
 footer .social i:hover {
   opacity: 1;
-  
 }
 footer .copy a {
   color: #fff;
   opacity: 0.5;
 }
 #insta {
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -webkit-radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
 }
 #fb {
   background: blue;
 }
 #youtube {
-  background: #c4302b
+  background: #c4302b;
 }
 #mail {
-  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  background: conic-gradient(
+      from -45deg,
+      #ea4335 110deg,
+      #4285f4 90deg 180deg,
+      #34a853 180deg 270deg,
+      #fbbc05 270deg
+    )
+    73% 55%/150% 150% no-repeat;
 }
 footer .copy a:hover {
   opacity: 1;
@@ -514,6 +534,20 @@ footer .footer-copyright {
 }
 .top-link img:hover {
   opacity: 1;
+}
+@media (max-width: 768px) {
+  .top-link {
+    width: 40px;
+    height: 40px;
+  }
+  .top-link img {
+    width: 40px;
+    height: 40px;
+  }
+  .main p {
+    font-size: 15px;
+    padding: 30px;
+  }
 }
 /* footer .bootmlogo{
   width: 50px;
