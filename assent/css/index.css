@@ -56,15 +56,16 @@ html {
 } */
 #particles-js {
   position: relative;
+  height: 80vh;
   /* background: url(../images/sections/slider_1.jpg); */
   background: linear-gradient(
       45deg,
-      rgba(0, 0, 0, 0.89) 0%,
-      rgba(2, 4, 10, 0.493) 100%
+      rgba(0, 0, 0, 0.308) 0%,
+      rgba(0, 2, 7, 0.185) 100%
     ),
-    url("../images/sections/DSCN2295-012.jpg") center center no-repeat;
+    url("../images/sections/DSCN2295-01.jpg") center center no-repeat;
 
-  min-height: 100vh;
+  min-height: 70vh;
   background-size: cover;
   background-position: center;
   padding: 220px 0 200px;
