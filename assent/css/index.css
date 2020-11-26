@@ -227,7 +227,7 @@ nav {
   flex-direction: column;
 }
 
-.clients img {
+.clients a img {
   max-width: 45%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
@@ -237,14 +237,14 @@ nav {
   border-radius: 40%;
 }
 
-.clients img:hover {
+.clients a img:hover {
   -webkit-filter: none;
   filter: none;
   transform: scale(1.15);
 }
 
 @media (max-width: 768px) {
-  .clients img {
+  .clients a img {
     max-width: 40%;
   }
 }
@@ -431,7 +431,6 @@ footer .fcontent {
 footer .social {
   color: #fff;
   padding: 0.6rem;
-  /* background: #007dff; */
   border-radius: 40%;
   margin-right: 10px;
   align-items: center;
@@ -453,7 +452,7 @@ footer .copy a {
   color: #fff;
   opacity: 0.5;
 }
-#insta {
+#insta:hover {
   background: radial-gradient(
     circle at 30% 107%,
     #fdf497 0%,
@@ -471,21 +470,25 @@ footer .copy a {
     #285aeb 90%
   );
 }
-#fb {
+#fb:hover {
   background: blue;
 }
-#youtube {
+#youtube:hover {
   background: #c4302b;
 }
-#mail {
-  background: conic-gradient(
-      from -45deg,
-      #ea4335 110deg,
-      #4285f4 90deg 180deg,
-      #34a853 180deg 270deg,
-      #fbbc05 270deg
-    )
-    73% 55%/150% 150% no-repeat;
+#mail img {
+  width: 23px;
+  height: 23px;
+  -webkit-filter: grayscale(20);
+  filter: grayscale(20);
+  
+}
+#mail img:hover {
+  -webkit-filter: none;
+  filter: none;
+}
+#mail:hover {
+background: white;
 }
 footer .copy a:hover {
   opacity: 1;
