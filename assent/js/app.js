@@ -131,3 +131,7 @@ particlesJS('particles-js',
   }
 
 );
+
+jQuery(window).load(function(){
+  jQuery(".loader").fadeOut(500);
+});
