@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
-:root{
-  --theme-color:#2676a7;
+:root {
+  --theme-color: #2676a7;
   --btn-clr: #087afc;
 }
 * {
@@ -59,13 +59,12 @@ nav .navbar-brand image {
   font-size: 20px;
   text-transform: uppercase;
   color: #fff;
-  font-weight: 600;
+  font-weight: 700;
+  transition: 0.3s all ease-in-out;
 }
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
-  font-weight: 600;
-  font-weight: 800;
-  transition: 0.3s all ease-in-out;
   text-shadow: rgba(0, 0, 0, 0.671);
+  transform: scale(1.05);
 }
 
 /* nav end */
@@ -73,7 +72,6 @@ nav .navbar-brand image {
 /*--------------------------------------------------------------
 # HOME
 --------------------------------------------------------------*/
-
 
 #particles-js {
   position: relative;
@@ -212,7 +210,7 @@ nav .navbar-brand image {
 .clients .links {
   display: flex;
   flex-direction: column;
-  transition: .4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 
 .clients .links:hover {
@@ -246,12 +244,12 @@ nav .navbar-brand image {
 --------------------------------------------------------------*/
 
 .card {
-  transition: .4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 .card:hover {
   box-shadow: 0 15px 15px rgba(112, 86, 86, 0.6);
   transform: translateY(-10px);
-  transition: 1.1s all ease-in-out; 
+  transition: 1.1s all ease-in-out;
 }
 .card .card-body p {
   text-align: justify;
@@ -401,7 +399,6 @@ nav .navbar-brand image {
   transition: 0.4s;
   border-radius: 5px;
 }
-
 
 @-webkit-keyframes animate-loading {
   0% {
