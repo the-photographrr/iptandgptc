@@ -99,23 +99,6 @@ nav .navbar-brand image {
   width: 100%;
   z-index: -1;
 }
-.ipth1 {
-  background: -webkit-linear-gradient(
-    rgba(11, 111, 192, 0.671),
-    rgb(255, 255, 255)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.nur {
-  background: -webkit-linear-gradient(
-    rgba(11, 111, 192, 0.671),
-    rgb(255, 255, 255)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .main h2 {
   margin: 0;
   padding: 0;
@@ -252,7 +235,7 @@ nav .navbar-brand image {
   transition: 1.1s all ease-in-out;
 }
 .card .card-body p {
-  text-align: justify;
+  word-break: break-all;
 }
 /* Deparment End */
 
@@ -577,7 +560,8 @@ footer .footer-copyright {
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url(../images/logos/805.gif) 50% 50% no-repeat white;
+  background: url(../images/logos/805.gif) 50% 50% no-repeat
+    rgba(0, 0, 0, 0.746);
   opacity: 1;
 }
 /* preloader */
