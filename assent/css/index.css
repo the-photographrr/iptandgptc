@@ -85,7 +85,8 @@ nav .navbar-brand image {
     url("../images/sections/DSCN2295-01.jpg") center center no-repeat;
 
   min-height: 70vh;
-  background-size: cover;
+  background-size: 140%;
+  background-attachment: fixed;
   background-position: center;
 }
 #particles-js::after {
@@ -200,7 +201,7 @@ nav .navbar-brand image {
   box-shadow: 0 15px 15px rgba(112, 86, 86, 0.6);
 }
 .clients a img {
-  max-width: 45%;
+  max-width: 75%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
@@ -211,7 +212,7 @@ nav .navbar-brand image {
 
 .clients a img:hover {
   -webkit-filter: none;
-  filter: none;
+  filter: nonie;
   transform: scale(1.15);
 }
 
