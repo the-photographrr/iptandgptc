@@ -128,6 +128,19 @@ nav .navbar-brand image {
     padding: 30px;
   }
 }
+@media (max-width:1025px){
+  #particles-js{
+    background-size:200% !important; 
+    overflow: hidden;
+  }
+}
+
+@media (max-width:725px){
+  #particles-js{
+    background-size:300% !important; 
+    overflow: hidden;
+  }
+}
 
 /*--------------------------------------------------------------
 # ABOUT
