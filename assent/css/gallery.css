@@ -16,9 +16,22 @@ html,body{
 nav {
     background: var(--theme-color);
 }
+
+
+.dropdown-menu{
+    overflow: hidden;
+   
+  }
+  .dropdown-item:hover{
+    background-color: #2676a7 !important;
+    margin-left: 2px;
+    transition: .3s all ease-in-out;
+    
+  }
 #gallery {
     padding-top: 6rem;
 }
+
 ul.filters{
     display: block;
     width: 100%;
