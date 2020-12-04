@@ -287,13 +287,15 @@
   .w3l-social ul li a {
   color: #333;
     text-align: center;
+    text-decoration: none;
   }
-  .w3l-social ul li a i.fab.fa-facebook-f,.w3l-social ul li a i.fas.fa-envelope,.w3l-social ul li a i.fab.fa-instagram{
-    height: 40px;
-    width: 40px;
+  .w3l-social ul li a i{
+    height: 70px;
+    width: 70px;
+    padding: 10px;
     background: #FFFFFF;
     line-height: 40px;
-    font-size: 14px;
+    font-size: 24px;
     color: #383838;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -306,15 +308,15 @@
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
   }
-  .w3l-social ul li a i.fab.fa-facebook-f:hover {
+  .w3l-social ul li a i.icofont-facebook:hover {
   background: #3b5998;
   color: #FFFFFF;
   }
-  .w3l-social ul li a i.fas.fa-envelope:hover{
+  .w3l-social ul li a i.icofont-email:hover{
   background: #db4a39;
   color: #FFFFFF;
   }
-  .w3l-social ul li a i.fab.fa-instagram:hover{
+  .w3l-social ul li a i.icofont-instagram:hover{
   background: #f26522;
   color: #FFFFFF;
   }
