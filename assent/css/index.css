@@ -59,7 +59,7 @@ nav .navbar-brand image {
 }
 
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase;
   color: #fff;
   font-weight: 700;
@@ -88,7 +88,7 @@ nav .navbar-brand image {
 
 #particles-js {
   position: relative;
-  height: 80vh;
+  height: 100vh;
   /* background: url(../images/sections/slider_1.jpg); */
   background: linear-gradient(
       45deg,
@@ -97,7 +97,7 @@ nav .navbar-brand image {
     ),
     url("../images/sections/DSCN2295-01.jpg") center center no-repeat;
 
-  min-height: 70vh;
+  min-height: 91vh;
   background-size: 140%;
   background-attachment: fixed;
   background-position: center;
