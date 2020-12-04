@@ -321,3 +321,18 @@
   color: #FFFFFF;
   }
   /*-- //team --*/
+
+  /* media queries */
+  @media (max-width:480px){
+    .agileinfo-inner h2{
+      font-size: 1.6em !important;
+      word-break: break-word;
+    }
+    .inner_banner{
+      background-size: cover !important;
+      background-position: center !important;
+    }
+    h3.heading{
+      font-size: 32px !important;
+    }
+  }

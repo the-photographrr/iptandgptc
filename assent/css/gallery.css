@@ -141,3 +141,29 @@ h4.title{
     background-color: #28bea8;
     color: #fff;
 }
+
+#go-top{
+    display: none;
+    font-size: 30px;
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    border: 2px solid var(--dark-blue);
+    border-radius: 50%;
+    width: 50px;
+    background: #fff;
+    height: 50px;
+    line-height: 45px;
+    text-align: center;
+    cursor: pointer;
+    color: var(--secondary);
+      box-shadow: 0px 1px 8px 0px black;
+  
+   
+    
+  }
+  #go-top i{
+    width: 30px;
+    height: 30px;
+    color: #17a2b8;
+  }

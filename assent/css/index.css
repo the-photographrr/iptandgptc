@@ -520,6 +520,21 @@ footer .footer2 p {
 footer .footer-copyright {
   background: rgba(0, 0, 0, 0.198);
 }
+.quicklink {
+ text-decoration: none;
+ color: #fff;
+ opacity: .8;
+ font-size: 15px;
+}
+.quicklink:hover {
+  text-decoration: none;
+  opacity: 1;
+  color: #fff;
+}
+.quicklink i {
+  color: #fff;
+  font-size: 15px;
+}
 
 /* footer end */
 /*--------------------------------------------------------------
