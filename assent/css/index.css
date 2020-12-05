@@ -102,6 +102,16 @@ nav .navbar-brand image {
   background-attachment: fixed;
   background-position: center;
 }
+
+  /* video {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -2;
+    height: auto;
+    min-width: 100%;
+    min-height: 91vh;
+  } */
 #particles-js::after {
   background-color: #000;
   content: "";
@@ -265,6 +275,12 @@ nav .navbar-brand image {
 .card .card-body p {
   word-break: break-all;
 }
+
+@media screen and (max-width: 768px) and (orientation : landscape){
+  .card-deck{
+    display: grid;
+  }
+} 
 /* Deparment End */
 
 /*--------------------------------------------------------------
@@ -561,13 +577,13 @@ footer .footer-copyright {
   display: none;
   font-size: 30px;
   position: fixed;
-  bottom: 100px;
-  right: 50px;
+  bottom: 50px;
+  right: 45px;
   border: 2px solid var(--dark-blue);
   border-radius: 50%;
-  width: 50px;
+  width: 45px;
   background: #fff;
-  height: 50px;
+  height: 45px;
   line-height: 45px;
   text-align: center;
   cursor: pointer;
