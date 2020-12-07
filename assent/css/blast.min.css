@@ -8,14 +8,6 @@ body
 {
     background:#FEFBFD;
 }
-.animate__animated.animate__fadeInRightBig {
-    --animate-duration: 1.6s;
-    --animate-delay: 2s;
-  }
-  .animate__animated.animate__zoomIn {
-    --animate-duration: 2s;
-    --animate-delay: 5s;
-  }
 .blast-box{
     position:fixed;
     width:300px;
@@ -24,7 +16,11 @@ body
     left:-260px;
     z-index:9999;
     font-family:sans-serif;
-    transition:0.5s cubic-bezier(1, 1.48, 0.76, 0.95) left;
+    animation: slideInRight;
+    animation-duration: 3s;
+     animation-delay: 1s;
+    
+    /* transition:0.5s cubic-bezier(1, 1.48, 0.76, 0.95) left; */
    
 }
 .blast-icon {
@@ -46,17 +42,27 @@ body
     transition-delay: 0.5s;
     z-index: 9999;
     box-shadow: 0px 1px 8px 0px black;
-    animation: blast-icon 1s linear infinite;
+    /* animation: blast-icon 1s linear infinite; */
+    animation: zoomIn;
+     animation-duration: 3s;
+     animation-delay: 4.1s;
+}
+.blast-icon img {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    color: blue;
+
 }
 
-@keyframes blast-icon {
+/* @keyframes blast-icon {
     0%{
         box-shadow: 0px 1px 8px #000;
     }
     100% {
         box-shadow: 1px 1px 10px 5px rgb(196, 16, 16);
     }
-}
+} */
 .blast-box .blast-frame{
     position: relative;;
     width:calc(100% - 40px);
