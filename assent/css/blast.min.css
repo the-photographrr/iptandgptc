@@ -45,14 +45,12 @@ body
     /* animation: blast-icon 1s linear infinite; */
     animation: zoomIn;
      animation-duration: 3s;
-     animation-delay: 4.1s;
+     animation-delay: 4.1   s;
 }
 .blast-icon img {
     width: 30px;
     height: 30px;
     border-radius: 20px;
-    color: blue;
-
 }
 
 /* @keyframes blast-icon {

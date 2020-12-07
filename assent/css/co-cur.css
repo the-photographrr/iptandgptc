@@ -327,6 +327,7 @@
     .agileinfo-inner h2{
       font-size: 1.6em !important;
       word-break: break-word;
+      padding: 4rem 0 !important;
     }
     .inner_banner{
       background-size: cover !important;
