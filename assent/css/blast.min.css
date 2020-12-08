@@ -16,6 +16,7 @@ body
     left:-260px;
     z-index:9999;
     font-family:sans-serif;
+    transition-duration: 2s;
     animation: slideInRight;
     animation-duration: 3s;
      animation-delay: 1s;
@@ -38,6 +39,7 @@ body
     border: 1px solid #fff;
     perspective: 1000px;
     transition: 0.5s ease all;
+    transition-duration: 2s;
     transform-origin: left;
     transition-delay: 0.5s;
     z-index: 9999;
@@ -45,7 +47,7 @@ body
     /* animation: blast-icon 1s linear infinite; */
     animation: zoomIn;
      animation-duration: 3s;
-     animation-delay: 4.1   s;
+     animation-delay: 4.1s;
 }
 .blast-icon img {
     width: 30px;

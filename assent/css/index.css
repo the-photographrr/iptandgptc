@@ -69,7 +69,7 @@ nav .navbar-brand image {
 }
 
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
-  font-size: 1.1rem;
+  font-size: 1.1em;
   text-transform: uppercase;
   color: #fff;
   font-weight: 700;
@@ -81,7 +81,16 @@ nav .navbar-brand image {
 }
 
 .dropdown-menu{
+  display: none !important;
   overflow: hidden;
+ }
+
+.dropdown-item{
+  display: block !important;
+}
+
+.dropdown:hover .dropdown-menu{
+  display: block !important;
  
 }
 .dropdown-item:hover{

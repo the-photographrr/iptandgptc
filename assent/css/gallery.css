@@ -70,6 +70,12 @@ ul.filters > li.active > a{
     background-color: #fff;
     box-shadow: 1px 1px 1.5px rgba(0,0,0,0.075);
 }
+.item:hover {
+     animation: flipInY;
+     animation-duration: 3s;
+     animation-delay: 1s;
+    
+}
 
 .card-head{
     position: relative;
