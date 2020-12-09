@@ -118,6 +118,7 @@ nav .navbar-brand image {
 
   min-height: 91vh;
   background-size: 140%;
+  
   background-attachment: fixed;
   background-position: center;
 }
