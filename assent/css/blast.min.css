@@ -16,10 +16,10 @@ body
     left:-260px;
     z-index:9999;
     font-family:sans-serif;
-    transition-duration: 2s;
+    /* transition-duration: 2s;
     animation: slideInRight;
     animation-duration: 3s;
-     animation-delay: 2.5s;
+     animation-delay: 2.5s; */
     
     /* transition:0.5s cubic-bezier(1, 1.48, 0.76, 0.95) left; */
    
