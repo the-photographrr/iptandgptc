@@ -16,12 +16,8 @@ body
     left:-260px;
     z-index:9999;
     font-family:sans-serif;
-    /* transition-duration: 2s;
-    animation: slideInRight;
-    animation-duration: 3s;
-     animation-delay: 2.5s; */
-    
-    /* transition:0.5s cubic-bezier(1, 1.48, 0.76, 0.95) left; */
+    transition-duration: 2s;
+    transition:0.5s cubic-bezier(1, 1.48, 0.76, 0.95) left;
    
 }
 .blast-icon {
@@ -44,10 +40,7 @@ body
     transition-delay: 0.5s;
     z-index: 9999;
     box-shadow: 0px 1px 8px 0px black;
-    /* animation: blast-icon 1s linear infinite; */
-    /* animation: zoomIn;
-     animation-duration: 3s;
-     animation-delay: 4.1s; */
+    animation: blast-icon 1s linear infinite;
 }
 .blast-icon img {
     width: 30px;
@@ -72,8 +65,6 @@ body
     background:#2676a7ce;
     text-align:center;
     border-radius: 6px;
-  
-   
    
 }
 /*  */
