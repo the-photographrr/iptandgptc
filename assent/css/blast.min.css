@@ -116,6 +116,13 @@ body
     animation: scrolling 10s linear infinite;
   
 }
+.scrolling h2:hover{
+     -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused; 
+  animation-play-state:paused;
+  cursor: pointer;
+}
 @keyframes scrolling{
     0%{
         transform: translateY(100%);
