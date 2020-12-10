@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.person {
+    margin-top: 5rem;
+    height: 70vh;
+}
+.person h1 {
+    text-align: center;
+    color: rgb(29, 180, 240);
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+.person p {
+    text-align: center;
+    color: #000;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+}
+i {
+    text-decoration: none;
+}
+.social {
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    padding: 10px;
+}
+.icofont-whatsapp {
+    color:rgb(82, 190, 233);
+    width: 50px;
+    height:50px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.icofont-instagram {
+     color: rgb(82, 190, 233);
+    width: 50px;
+    height:50px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.icofont-facebook {
+    color:rgb(82, 190, 233);
+    width: 50px;
+    height:50px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.owl-carousel span {
+    background: rgba(0, 0, 255, 0.301) !important;
+}
+.owl-carousel .active span {
+    background:rgb(27, 117, 153) !important;
+}
