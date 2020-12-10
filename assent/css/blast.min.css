@@ -35,7 +35,7 @@ body
     border: 1px solid #fff;
     perspective: 1000px;
     transition: 0.5s ease all;
-    transition-duration: 2s;
+    transition-duration: 1s;
     transform-origin: left;
     transition-delay: 0.5s;
     z-index: 9999;
