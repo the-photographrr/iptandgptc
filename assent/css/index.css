@@ -300,6 +300,9 @@ nav .navbar-brand image {
 .card .card-body p {
   word-break: break-all;
 }
+ .cardimage {
+  height: 12rem;
+}
 
 @media screen and (max-width: 768px) and (orientation: landscape) {
   .card-deck {
