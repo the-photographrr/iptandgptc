@@ -35,7 +35,7 @@
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#about">About us</a>
+                <a class="nav-link" href="aboutus.html">About us</a>
             </li>
 
             <li class="nav-item dropdown">
@@ -52,18 +52,6 @@
                 </div>
             </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="facilities.html">Facilities</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact us</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Gallery</a>
-            </li>
-
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
@@ -78,6 +66,22 @@
                       <a class="dropdown-item" href="iedc.html">IEDC</a> -->
                 </div>
             </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="facilities.html">Facilities</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact us</a>
+            </li>
+
+           
+
+            
         </ul>
     </div>
 </nav>
@@ -420,6 +424,15 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
 
+        <!-- ZOOMOUT ZOOMIN -->
+  <script>
+    const bg=document.getElementById('home');
+    window.addEventListener('scroll',function(){
+        bg.style.backgroundSize= 180 - +window.pageYOffset/12+'%'
+       
+    });
+
+</script
 
 
 
