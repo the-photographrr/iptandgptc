@@ -110,11 +110,10 @@ nav .navbar-brand image {
       rgba(0, 0, 0, 0.541) 0%,
       rgba(0, 2, 7, 0.342) 100%
     ),
-    url("../images/sections/floweript.jpg") center no-repeat;
+    url("../images/portfolio/p9.jpeg") center no-repeat;
 
   min-height: 91vh;
-  background-size: 100%;
-
+  background-size: 140%;
   background-attachment: fixed;
   background-position: center;
 }
