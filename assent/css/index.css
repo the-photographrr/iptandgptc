@@ -333,6 +333,25 @@ nav .navbar-brand image {
   text-align: justify;
   font-size: 19px;
 }
+.principal .nelson {
+  font-weight: 600;
+  margin-left: 25rem;
+}
+@media (max-width: 576px) {
+  .principal .nelson {
+    margin-left: 9rem;
+  }
+}
+@media (max-width: 320px) {
+  .principal .nelson {
+    margin-left: 6rem;
+  }
+}
+@media (max-width: 768px) {
+  .principal .nelson {
+    margin-left: 9rem;
+  }
+}
 
 /* principal msg end */
 
@@ -517,6 +536,7 @@ footer .copy a {
   color: #fff;
   opacity: 0.5;
 }
+
 #insta:hover {
   background: radial-gradient(
     circle at 30% 107%,
