@@ -103,7 +103,7 @@ nav .navbar-brand image {
 
 #particles-js {
   position: relative;
-  height: 100vh;
+  height: 96vh;
   /* background: url(../images/sections/slider_1.jpg); */
   background: linear-gradient(
       45deg,
@@ -179,7 +179,15 @@ nav .navbar-brand image {
     overflow: hidden;
   }
 }
+/* events start */
 
+.event {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+/* events end */
 /*--------------------------------------------------------------
 # ABOUT
 --------------------------------------------------------------*/
