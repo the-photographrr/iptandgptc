@@ -186,6 +186,7 @@ nav .navbar-brand image {
   font-style: italic;
   font-weight: 600;
   text-align: center;
+  color: var(--btn-clr) !important;
 }
 
 @media (max-width: 576px) {
