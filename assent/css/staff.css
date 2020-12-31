@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.cardbody{
+  height: 10rem;
+}
+
+.card{
+  height: 35rem;
+}
 
 .person {
     margin-top: 5rem;
